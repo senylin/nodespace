@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/bin/npm', 'install', 'express' ]
+2 info using npm@1.2.21
+3 info using node@v0.11.2
+4 verbose read json /home/senyilin/nodespace/nodejs-demo/package.json
+5 warn package.json nodejs-demo@0.0.0 No repository field.
+6 warn package.json nodejs-demo@0.0.0 No readme data.
+7 verbose from cache /home/senyilin/nodespace/nodejs-demo/package.json
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'express@~4.13.1', null ]
+10 verbose cache add name=undefined spec="express@~4.13.1" args=["express@~4.13.1",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'express@~4.13.1',
+11 verbose parsed url   path: 'express@~4.13.1',
+11 verbose parsed url   href: 'express@~4.13.1' }
+12 verbose cache add name="express" spec="~4.13.1" args=["express","~4.13.1"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '~4.13.1',
+13 verbose parsed url   path: '~4.13.1',
+13 verbose parsed url   href: '~4.13.1' }
+14 verbose addNamed [ 'express', '~4.13.1' ]
+15 verbose addNamed [ null, '>=4.13.1- <4.14.0-' ]
+16 silly lockFile 0f2aa542-express-4-13-1 express@~4.13.1
+17 verbose lock express@~4.13.1 /home/senyilin/.npm/0f2aa542-express-4-13-1.lock
+18 silly lockFile 0f2aa542-express-4-13-1 express@~4.13.1
+19 error Error: EACCES, open '/home/senyilin/.npm/0f2aa542-express-4-13-1.lock'
+19 error  { [Error: EACCES, open '/home/senyilin/.npm/0f2aa542-express-4-13-1.lock']
+19 error   stack: 'Error: EACCES, open \'/home/senyilin/.npm/0f2aa542-express-4-13-1.lock\'',
+19 error   errno: 3,
+19 error   code: 'EACCES',
+19 error   path: '/home/senyilin/.npm/0f2aa542-express-4-13-1.lock' }
+20 error Please try running this command again as root/Administrator.
+21 error System Linux 4.2.0-27-generic
+22 error command "/usr/local/bin/node" "/usr/bin/npm" "install" "express"
+23 error cwd /home/senyilin/nodespace/nodejs-demo
+24 error node -v v0.11.2
+25 error npm -v 1.2.21
+26 error path /home/senyilin/.npm/0f2aa542-express-4-13-1.lock
+27 error code EACCES
+28 error errno 3
+29 error stack Error: EACCES, open '/home/senyilin/.npm/0f2aa542-express-4-13-1.lock'
+30 verbose exit [ 3, true ]
