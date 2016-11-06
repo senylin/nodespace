@@ -1,0 +1,47 @@
+---
+title: translation1--Docs|nodejs
+date: 2016-11-06 22:27:00
+tags:
+- translate
+- nodejs
+---
+
+##Docs|nodejs
+https://nodejs.org/en/docs/
+<!--more-->
+Docs
+
+There are three types of **documentation available** on this website:
+这里有三种**可用的文档**在这个网站
+
+    API reference documentation API参考文档
+    ES6 features  ES6特征
+    Frequently asked questions 常见问答
+
+###API Reference Documentation API
+
+The API reference documentation provides **detailed information** about a function or object in Node.js. This documentation **indicates** what arguments参数 a method accepts, the return value of that method, and what errors may be related to that method. It also indicates which methods are available for different versions of Node.js.
+
+API参考文档提供了一个nodejs函数、对象的**详情**。这个文档**指明**
+一个方法接受的参数，返回值，和哪些错误和这个方法有关。它也指明哪个方法是可以使用的在不同版本的nodejs里
+
+This documentation describes the **built-in modules** provided by Node.js. It does not document modules provided by the community.
+
+这个文档描述了nodejs的**内置模块**。他不证明社区提供的模版
+Looking for API docs of previous releases版本?
+
+    Node.js 5.x
+    Node.js 0.12.x
+    Node.js 0.10.x
+    all versions
+
+###ES6 Features
+
+The ES6 **section** describes the three ES6 feature groups, and details which features **are enabled by default** in Node.js, alongside explanatory links. It also shows how to find which version of V8 shipped with a particular Node.js release.
+
+**es6部分**描述了3个es6特征组，和nodejs**默认启用**的特征细节，解释链接。他也显示了如何找到特定装载V8的nodejs版本
+###Frequently Asked Questions
+
+The FAQ covers how everyone can contribute to Node.js, **our code of conduct and governance model**, how to get in touch on GitHub and IRC, and **how to help out with triaging issues.**
+
+FAQ 覆盖了每人如何贡献nodejs ，我们的**行为准则和管理模式**，如何得到获得github和**如何帮助分类解决问题**

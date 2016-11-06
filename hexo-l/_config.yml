@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Test Blog
+title: Novlin
 subtitle: 阴阳师一枚 !
 description: 这个人真懒~_~!|
 author: senylin
@@ -74,3 +74,11 @@ deploy:
   type: git
   repo: https://github.com/senylin/senylin.github.io.git
   branch: master
+
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xm
+# plugins:
+# - hexo-generator-feed
+# - hexo-generator-baidu-sitemap
